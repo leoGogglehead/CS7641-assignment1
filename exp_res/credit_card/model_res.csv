@@ -1,0 +1,7 @@
+,model_name,metric_score,params,train_time,infer_time
+0,Pruned Decision Tree,0.789049861,"{'max_depth': 5, 'min_samples_leaf': 38}",0.154687405,0.000342846
+1,Hist-Grad Boosted Tree,0.787700331,"{'max_bins': 52, 'max_iter': 30}",0.141650915,0.002072334
+2,MLP_logistic,0.66676837,"{'activation': 'logistic', 'hidden_layer_sizes': (96,)}",2.49203372,0.008032322
+3,MLP_relu,0.679886824,"{'activation': 'relu', 'hidden_layer_sizes': (96,)}",2.657636642,0.001007318
+4,kNN,0.702654312,"{'metric': 'cosine', 'n_neighbors': 10}",0.002131462,1.998672485
+5,SVC,0.789316202,"{'C': 1.318256738556407, 'kernel': 'rbf'}",26.01817203,1.395917416
