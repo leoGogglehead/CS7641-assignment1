@@ -1,0 +1,7 @@
+,model_name,metric_score,params,train_time,infer_time
+0,Pruned Decision Tree,0.6677839330234162,"{'max_depth': 8, 'min_samples_leaf': 39}",0.13810062408447266,0.0010480880737304688
+1,Hist-Grad Boosted Tree,0.7099106362119288,"{'max_bins': 56, 'max_iter': 41}",0.47965192794799805,0.008729934692382812
+2,MLP_logistic,0.5659518306855561,"{'activation': 'logistic', 'hidden_layer_sizes': (64,)}",1.2490754127502441,0.009362220764160156
+3,MLP_relu,0.5464600445152173,"{'activation': 'logistic', 'hidden_layer_sizes': (64,)}",1.4643902778625488,0.00849008560180664
+4,kNN,0.6284386789306076,"{'metric': 'cityblock', 'n_neighbors': 10}",0.004525184631347656,0.9524760246276855
+5,SVC,0.5659518306855561,"{'C': 2.1877616239495525, 'kernel': 'rbf'}",62.48268532752991,6.3555028438568115
